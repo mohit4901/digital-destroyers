@@ -1,0 +1,119 @@
+.main-content{
+	width: 50%;
+	border-radius: 20px;
+
+    box-shadow: 0 15px 25px #001c05;
+
+	margin: 5em auto;
+	display: flex;
+}
+.company__info{
+	background-color: black;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+}
+.fa-android{
+	font-size:4em;
+}
+
+	.login_form{
+		border-top-left-radius:20px;
+		border-bottom-left-radius:20px;
+	}
+
+
+.row > h2{
+	color:black;
+}
+.login_form{
+	background-color: #fff;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+form{
+	padding: 0 10em;
+}
+.image{
+    max-width:300px;
+    max-height: 1000px;
+    display: flex;
+}
+.form__input{
+	width: 150%;
+	border:0px solid transparent;
+	border-radius: 0;
+	border-bottom: 1px solid #aaa;
+	padding: 1em .5em .5em;
+	padding-left: 1em;
+
+	outline:none;
+	margin:1.5em auto;
+	transition: all .5s ease;
+}
+.form__input:focus{
+	border-bottom-color: black;
+	box-shadow: 0 0 5px rgba(0,80,80,.4); 
+	border-radius: 4px;
+}
+.btn1{
+	transition: all .5s ease;
+	width: 180%;
+	border-radius: 170px;
+	color:black;
+	font-weight: 600;
+	background-color: #fff;
+	border:1px solid black;;
+	margin-top: 2.5em;
+	margin-bottom: 1em;
+    margin-left:1em;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 8px;
+}
+.btn{
+	transition: all .5s ease;
+	width: 80%;
+	border-radius: 170px;
+	color:black;
+	font-weight: 600;
+	background-color: #fff;
+	border: 1px solid black;
+	margin-top: 2.5em;
+	margin-bottom: 1em;
+    margin-left:2em;
+    padding: 5px;
+    
+}
+
+
+.btn1:hover, .btn:focus{
+	background-color: darkslategray;
+	color:#fff;
+}
+.btn:hover, .btn:focus{
+	background-color: darkslategray;
+	color:#fff;
+}
+
+h4{
+    width:300px;
+}
+h2{
+  
+    text-align: center;
+}
+.align{
+    text-align: center;
+	text-decoration:none;
+}
+
+
+
+
+/*anshika kitni achi h wowieeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee*/

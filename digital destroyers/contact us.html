@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</body>
+<div class="container">
+  <div class="site-banner">
+    <div class="header-menu">
+<a href="main11.html"> BACK HOME</a>
+<span id="menu-icon" onclick="toggleMenu()"> <img src="back0011.jpg"></span>
+  <span id="header-right-menu">
+    <a href="#">Works</a>
+    <a href="#">About Us</a>
+    <a href="#">News</a>
+    <a href="#" class="header-active">Contact</a>
+</span>
+    </div>
+    <h1 class="heading">CONTACT URBAN SHOPEE
+    </h1>
+  </div>
+  <div class="footer">
+    <div class="footer-column"><img class="map-image" src="maps.jpg"></div>
+    <div class="footer-column">
+      <div class="title-content">
+        <h1> Meet Us</h1>
+        <div class="contact-row">
+          <i class="fa-solid fa-phone"></i>
+          <span class="title-field">+91 816-888-4901</span>
+        </div>
+        <div class="contact-row">
+          <i class="fa-regular fa-location-dot"></i>
+          <span class="title-field">232/235 Jawahar Nagar<br>Teshil Camp<br>Panipat(132103)</span>
+        </div>
+        <div class="contact-row">
+          <i class="fa-regular fa-envelope"></i>
+          <span class="title-field">mohittt0011@gmail.com</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-column contact-form-container">
+      <div class="title-content">
+        <form method="POST">
+          <h1> Contact</h1>
+          <div class="contact-row">
+            <input type="text" class="form-field" placeholder="Name">
+          </div>
+          <div class="contact-row">
+            <textarea row="5"class="form-field" placeholder="Message"></textarea>
+          </div>
+          <button class="button">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+  function toggleMenu() {
+    var menuElement = document.getElementById("header-right-menu");
+    if (menuElement.style.display=== "block"){
+      menuElement.style.display="none";
+    } else {
+      menuElement.style.display= "block";
+    }
+    }
+</script>
+  
+</html>

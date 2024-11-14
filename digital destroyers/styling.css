@@ -1,0 +1,158 @@
+body {
+	font-family: Arial;
+}
+
+.container {
+	max-width: 100%;
+	margin: 0 auto;
+	line-height: 2.5;
+
+}
+/*  header style starts */
+.site-banner {
+	height: 300px;
+	background-image: url('back0011.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+}
+
+.site-banner a {
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 12px;
+}
+
+.header-menu {
+	padding: 40px 20px;
+	
+}
+.heading{
+	display:flex;
+	justify-content: center;
+}
+
+#header-right-menu {
+	float: right;
+}
+
+.header-active {
+	background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.heading {
+	color: #ffffff;
+	text-align: center;
+	font-family: cursive;
+	padding: 40px 0px;
+	font-size: 3em;
+	margin: 0px;
+}
+/*  header style ends */
+
+.footer {
+	display: flex;
+}
+
+.footer-column {
+	width: 33.3%;
+	float: left;
+}
+
+.map-image {
+	width:  400px;
+	height:400px;
+}
+
+.contact-form-container {
+	background-color: #eaeaea;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.tile-content {
+	padding: 20px 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile-content .contact-row {
+	margin-bottom: 20px;
+    display:flex; align-items: center;
+    justify-content: center;
+}
+
+
+.tile-field {
+	margin-left: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+	width:40px;
+}
+
+.form-field {
+	width: 100%;
+	padding: 10px 8px;
+    border-radius: 4px;
+    border: #d9d8d8 1px solid;
+}
+
+.button {
+	color: #ffffff;
+	padding: 10px 30px 10px 30px;
+	border-radius: 20px;
+	background: linear-gradient(to right, #08a9df, #12054a);
+	border: 0px;
+}
+
+#menu-icon {
+	display: none;
+	float: right;
+}
+
+@media screen and (max-width: 1000px) {
+	.footer-column {
+		width: 50%;
+	}
+	.contact-form-container {
+		width: 100%;
+	}
+	.footer {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#header-right-menu {
+		float: none;
+		display: none;
+	}
+	#header-right-menu a {
+		display: block;
+	}
+	.heading {
+		padding: 0px;
+	}
+	.tile-content {
+    	padding: 0px 20px;
+	}
+
+	.footer-column {
+		width: 100%;
+        height:80px;
+	}
+	
+	#menu-icon {
+		display: block;
+		float: right;
+	}
+}
+.placeholder{
+    width:20px;
+}
